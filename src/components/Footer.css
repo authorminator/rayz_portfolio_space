@@ -1,0 +1,37 @@
+.site-footer {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+  background-color: #1e0654;
+  color: #ddd;
+}
+
+.footer-left {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-name {
+  margin-right: 1rem;
+}
+
+.footer-right a {
+  /* margin-left: 1.5rem; */
+  margin-right: 4rem;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
