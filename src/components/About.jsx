@@ -9,18 +9,27 @@ function About() {
     <section id="about" className="about-section">
       <div className="about-content">
         <BoxWithShadow>
-          <div className="about-description circle width-400">
+          <div className="about-description circle background-warm img-container">
+            <img
+              src={portfolioContent.personal.profileIcon}
+              alt={portfolioContent.personal.name}
+              className="profile-img"
+            />
+          </div>
+        </BoxWithShadow>
+        <BoxWithShadow>
+          <div className="about-description circle background-warm width-400">
             <p>{about.intro}</p>
           </div>
         </BoxWithShadow>
         <BoxWithShadow>
-          <div className="about-description circle width-400">
+          <div className="about-description circle background-warm width-400">
             <p>{about.description}</p>
           </div>
         </BoxWithShadow>
 
         <BoxWithShadow style={{ width: "100%" }}>
-          <div className="about-description circle width-400 contact-info">
+          <div className="about-description circle background-cool width-350 contact-info">
             <h3>Contact & Links</h3>
             <p>
               Email:{" "}
