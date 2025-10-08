@@ -53,6 +53,17 @@
   );
 }
 
+.background-greenish {
+  background: radial-gradient(
+    circle,
+    rgb(209, 236, 217) 0%,
+    rgb(209, 236, 217) 30%,
+    rgb(33, 45, 35) 80%,
+    rgb(33, 45, 35) 95%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
 .padding-0 {
   padding: 0;
 }

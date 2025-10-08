@@ -30,7 +30,7 @@ function About() {
 
         {about.skills.map((skill) => (
           <BoxWithShadow>
-            <div className="about-description circle background-warm width-350">
+            <div className="about-description circle background-cool width-350">
               <div key={skill.category}>
                 <h3 className="text-xl font-bold text-gray-800 mb-4">
                   {skill.category}
@@ -42,7 +42,7 @@ function About() {
         ))}
 
         <BoxWithShadow style={{ width: "100%" }}>
-          <div className="about-description circle background-cool width-350 contact-info">
+          <div className="about-description circle background-greenish width-350 contact-info">
             <h3>Contact & Links</h3>
             <p>
               Email:{" "}
